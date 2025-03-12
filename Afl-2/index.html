@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>Musikarkiv</title>
+    <style>
+
+        #albumTable {
+            display: none;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 2px solid black;
+        }
+        th, td {
+            padding: 7px;
+            text-align: left;
+        }
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+        th {
+            background-color: #91ed7a;
+        }
+
+        button {
+            background-color: #91ed7a;
+            border: 2px solid black;
+        }
+
+    </style>
+  </head>
+  <body>
+        <button onclick="toggleTable()">Vis Tabel</button>
+        
+        <div id="content"></div>
+    
+        <script src="albumScripts.js"></script>
+        
+    <div id="content"></div>
+    <script src="albumScripts.js"></script>
+  </body>
+</html>
